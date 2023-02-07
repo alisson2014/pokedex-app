@@ -17,7 +17,6 @@ export type TPokemonType =
   | "rock"
   | "steel"
   | "water"
-
 export interface IPokemonFetch {
   name: string
   url: string

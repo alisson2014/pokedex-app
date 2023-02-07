@@ -11,7 +11,7 @@ interface ICardProps {
   type: TPokemonType
 }
 
-const Card: FC<ICardProps> = ({ image, name, preview, id, type }) => {
+const Card: FC<ICardProps> = ({ id, name, image, preview, type }) => {
   return (
     <Atom.Container gap="xs" align="center" justify="center" direction="column">
       <FlexBox align="center" justify="flex-end" direction="row">

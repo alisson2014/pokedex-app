@@ -1,8 +1,12 @@
+//use state
 import { useState } from "react"
+
+//use recoil
 import { useRecoilState, useRecoilValueLoadable } from "recoil"
 import { atomPokemon } from "../../recoil/atoms"
 import { selectorGetPokemon } from "../../recoil/selectors"
 
+//card
 import Card from "../../components/Card"
 
 const HomePage = () => {

@@ -15,7 +15,7 @@ export const Container = styled(FlexBox)`
   max-height: 340px;
 `
 
-export const PokemonSpot = styled(FlexBox)<TPokemonType>`
+export const PokemonSpot = styled(FlexBox)<TAtomPokemonType>`
   background-color: ${(props) => props?.theme?.colors?.types?.[props?.type]};
   border-radius: 100%;
   width: 160px;
