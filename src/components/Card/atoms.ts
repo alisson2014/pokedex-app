@@ -18,8 +18,8 @@ export const Container = styled(FlexBox)`
 export const PokemonSpot = styled(FlexBox)<TAtomPokemonType>`
   background-color: ${(props) => props?.theme?.colors?.types?.[props?.type]};
   border-radius: 100%;
-  width: 160px;
-  height: 160px;
+  width: 165px;
+  height: 165px;
 `
 
 export const PokemonSprite = styled.img`
@@ -31,4 +31,5 @@ export const PokemonText = styled.span<TAtomPokemonType>`
   color: ${(props) => props?.theme?.colors?.types?.[props?.type]};
   font-size: 1.25em;
   font-weight: bold;
+  text-transform: capitalize;
 `
