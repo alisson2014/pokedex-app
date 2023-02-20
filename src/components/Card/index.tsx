@@ -4,7 +4,7 @@ import { FlexBox } from "../Flexbox"
 import * as Atom from "./atoms"
 
 interface ICardProps {
-  id: string
+  id: number
   name: string
   image: string
   preview?: string
